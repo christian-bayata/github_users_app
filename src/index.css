@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #f1f5f8;
+  color: #222;
+}
+
+.intro {
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 1rem;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+}
+
+ul li {
+  margin: 4em;
+  background: #fff;
+  padding: 1em;
+  display: flex;
+}
+
+ul li img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+}
+
+#font {
+  font-family: sans-serif;
+}
